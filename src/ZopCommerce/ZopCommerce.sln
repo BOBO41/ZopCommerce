@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{3E54EE25-CD95-4762-AB2E-7B4EA9FFB9F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{086ED3D7-971C-4006-988E-4A7D6728D9D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AAE488E7-9799-4861-B33A-AF66B4AB96DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zop.Web", "Presentation\Zop.Web\Zop.Web.csproj", "{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zop.Services", "Libraries\Zop.Services\Zop.Services.csproj", "{83156EA0-E9E1-4920-940E-A299BA4AC3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zop.Services.Tests", "Tests\Zop.Services.Tests\Zop.Services.Tests.csproj", "{3142A661-9414-4F6E-8FC8-352C6B67823C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zop.Core", "Libraries\Zop.Core\Zop.Core.csproj", "{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zop.Data", "Libraries\Zop.Data\Zop.Data.csproj", "{DC773377-8071-4E06-88CE-563724B1A48A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83156EA0-E9E1-4920-940E-A299BA4AC3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83156EA0-E9E1-4920-940E-A299BA4AC3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83156EA0-E9E1-4920-940E-A299BA4AC3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83156EA0-E9E1-4920-940E-A299BA4AC3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3142A661-9414-4F6E-8FC8-352C6B67823C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3142A661-9414-4F6E-8FC8-352C6B67823C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3142A661-9414-4F6E-8FC8-352C6B67823C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3142A661-9414-4F6E-8FC8-352C6B67823C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC773377-8071-4E06-88CE-563724B1A48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC773377-8071-4E06-88CE-563724B1A48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC773377-8071-4E06-88CE-563724B1A48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC773377-8071-4E06-88CE-563724B1A48A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89A39DC3-C5F3-4FAE-9ACB-CC558BCBDF8D} = {086ED3D7-971C-4006-988E-4A7D6728D9D4}
+		{83156EA0-E9E1-4920-940E-A299BA4AC3ED} = {3E54EE25-CD95-4762-AB2E-7B4EA9FFB9F9}
+		{3142A661-9414-4F6E-8FC8-352C6B67823C} = {AAE488E7-9799-4861-B33A-AF66B4AB96DA}
+		{794C0FA6-FA49-48FD-A6DA-4CFF0CD245A5} = {3E54EE25-CD95-4762-AB2E-7B4EA9FFB9F9}
+		{DC773377-8071-4E06-88CE-563724B1A48A} = {3E54EE25-CD95-4762-AB2E-7B4EA9FFB9F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4C04BDC-C613-4092-B3A6-F720EBBBFD59}
+	EndGlobalSection
+EndGlobal
