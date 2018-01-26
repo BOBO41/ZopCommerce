@@ -2966,11 +2966,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Programing\\DevelopingSolution\\ZopCommerce\\Libraries\\Zop.Data\\Zop.Data.csproj",
+      "projectUniqueName": "D:\\Programing\\GitHub\\ZopCommerce\\src\\ZopCommerce\\Libraries\\Zop.Data\\Zop.Data.csproj",
       "projectName": "Zop.Data",
-      "projectPath": "D:\\Programing\\DevelopingSolution\\ZopCommerce\\Libraries\\Zop.Data\\Zop.Data.csproj",
+      "projectPath": "D:\\Programing\\GitHub\\ZopCommerce\\src\\ZopCommerce\\Libraries\\Zop.Data\\Zop.Data.csproj",
       "packagesPath": "C:\\Users\\Rootkit\\.nuget\\packages\\",
-      "outputPath": "D:\\Programing\\DevelopingSolution\\ZopCommerce\\Libraries\\Zop.Data\\obj\\",
+      "outputPath": "D:\\Programing\\GitHub\\ZopCommerce\\src\\ZopCommerce\\Libraries\\Zop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -2994,8 +2994,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Programing\\DevelopingSolution\\ZopCommerce\\Libraries\\Zop.Core\\Zop.Core.csproj": {
-              "projectPath": "D:\\Programing\\DevelopingSolution\\ZopCommerce\\Libraries\\Zop.Core\\Zop.Core.csproj"
+            "D:\\Programing\\GitHub\\ZopCommerce\\src\\ZopCommerce\\Libraries\\Zop.Core\\Zop.Core.csproj": {
+              "projectPath": "D:\\Programing\\GitHub\\ZopCommerce\\src\\ZopCommerce\\Libraries\\Zop.Core\\Zop.Core.csproj"
             }
           }
         }

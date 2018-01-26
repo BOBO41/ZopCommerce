@@ -34,7 +34,7 @@ namespace Zop.Web.Models
 
             //await AddOrUpdateAsync(serviceProvider, g => g.GenreId, Genres.Select(genre => genre.Value));
             //await AddOrUpdateAsync(serviceProvider, a => a.ArtistId, Artists.Select(artist => artist.Value));
-            await AddOrUpdateAsync(serviceProvider, u => u.Id, albums);
+            //await AddOrUpdateAsync(serviceProvider, u => u.Id, albums);
         }
         // TODO [EF] This may be replaced by a first class mechanism in EF
         private static async Task AddOrUpdateAsync<TEntity>(
